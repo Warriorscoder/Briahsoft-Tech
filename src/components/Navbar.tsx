@@ -46,7 +46,7 @@ export default function Navbar() {
                   <NavigationMenuLink asChild>
                     <Link
                       className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                      to="/"
+                      to="https://ui.shadcn.com/docs/components/accordion"
                     >
                       {/* <Icons.logo className="h-6 w-6" /> */}
                       <div className="mb-2 mt-4 text-lg font-medium">
@@ -87,7 +87,7 @@ export default function Navbar() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link to="/docs">
+            <Link to="https://github.com/Warriorscoder/Briahsoft-Tech">
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Github Link
               </NavigationMenuLink>
